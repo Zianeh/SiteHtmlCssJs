@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="/Assets/css/header.css">
+    <script src="/Assets/js/style.js" defer></script>
+    <link rel="stylesheet" href="/Assets/css/page/html.css">
+   
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</head>
+
+
+<body>
+
+ <header class="header">
+        <!-- Menu burger pour mobile -->
+        <div class="burger" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="/Assets/image/logo.jpg" alt="Retour à l'accueil">
+            </a>
+        </div>
+        <!-- Navigation principale -->
+        <nav class="nav" id="navMenu">
+            <ul>
+                <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+                <li><a href="../Page/css.html">CSS</a></li>
+                <li><a href="../Page/Html.html">HTML</a></li>
+                <li><a href="../Page/Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <Section class="section-milieu">
+            <H1>Qu'est-ce que le HTML ?</H1>
+            <div>
+                <p>Le langage de base du web</p>
+            </div>
+        </Section>
+
+
+       
+        <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+        <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+       
+
+        <h2>INTRODUCTION</h2>
+        <!-- ------------------section 1 ----------------->
+        <section class="section1">
+            <div class="column image-column">
+                <div class="image-container">
+                    <img src="/Assets/image/pcv4.jpg" alt="Image 1">
+                </div>
+            </div>
+            <div class="column text-column">
+                <h2>L'analogie de la maison</h2>
+                <p>Poursuivons cette analogie. Si le HTML est le plan de la maison, les briques seraient le contenu
+                    (texte, images, etc.) que l'on vient placer dans cette structure.</p>
+            </div>
+            <div class="column text-column">
+                <h2>Définition claire et concise</h2>
+                <p>HTML est un langage de balisage qui sert à structurer le contenu d'une page web. Chaque balise
+                    indique au navigateur comment afficher un élément spécifique (un titre, un paragraphe,
+                    etc.).</p>
+            </div>
+            <div class="column text-column">
+                <h2>Importance fondamentale</h2>
+                <p>Sans HTML, il serait impossible de créer des pages web telles que nous les connaissons. C'est le
+                    socle sur lequel repose tout le développement web.</p>
+            </div>
+        </section>
+
+
+       
+        <div class="custom-separator"></div>
+      
+
+<!-------------------------------- 2eme section------------------------------- -->
+        <section class="section2">
+            <h2>LES BASE DU HTML</h2>
+            <div class="columns-container">
+                <!-- Colonne 1 : Les balises -->
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/ios/50/000000/code.png" alt="Icone balises">
+                    </div>
+                    <h3>Les balises</h3>
+                    <p>Une balise est délimitée par des chevrons (&lt; et &gt;). La plupart des balises ont une balise
+                        de fermeture.</p>
+                    <p>Exemple : <code>&lt;p&gt;Ceci est un paragraphe.&lt;/p&gt;</code></p>
+                </div>
+
+                <!-- Colonne 2 : La structure d'un document HTML -->
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/ios/50/000000/code-file.png" alt="Icone structure">
+                    </div>
+                    <h3>La structure d'un document HTML</h3>
+                    <p><code>&lt;!DOCTYPE html&gt;</code>: Indique au navigateur qu'il s'agit d'un document HTML5.</p>
+                    <p><code>&lt;html&gt;</code>: Racine de tout document HTML.</p>
+                    <p><code>&lt;head&gt;</code>: Contient des informations sur la page.</p>
+                    <p><code>&lt;body&gt;</code>: Contient le contenu visible de la page.</p>
+                </div>
+
+                <!-- Colonne 3 : Les éléments les plus utilisés -->
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/ios/50/000000/html-5.png" alt="Icone HTML">
+                    </div>
+                    <h3>Les éléments les plus utilisés</h3>
+                    <p>Paragraphes : <code>&lt;p&gt;&lt;/p&gt;</code></p>
+                    <p>Titres : <code>&lt;h1&gt; à &lt;h6&gt;</code></p>
+                    <p>Listes : <code>&lt;ul&gt;</code> ou <code>&lt;ol&gt;</code> avec <code>&lt;li&gt;</code></p>
+                    <p>Liens : <code>&lt;a href="https://www.example.com"&gt;</code></p>
+                    <p>Images : <code>&lt;img src="image.jpg" alt="Description"&gt;</code></p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- separateur -->
+        <div class="custom-separator"></div>
+        <!-- separateur -->
+         <!-- -------------------------------exemple code html--------------------------- -->
+        <h2>CODE HTML</h2>
+
+        <section class="html-section">
+            <div class="content-section">
+                <h1>Comprendre l'HTML</h1>
+                <p>Le HTML est le langage de base pour créer des pages web. Il permet de structurer le contenu avec des
+                    balises. Dans cette section, vous pouvez voir un exemple de code en <span
+                        class="html-word">HTML</span>.
+                </p>
+            </div>
+            <div class="code-preview-section">
+                <div class="code-container">
+                    <div class="code-box">
+                        <pre id="code">
+    &lt;H2&gt;Hello World&lt;/H2&gt;
+    &lt;p&gt;Je suis un simple texte.&lt;/p&gt;
+                        </pre>
+                        <button id="copyButton" onclick="copyCode()">Copier le code</button>
+                    </div>
+                </div>
+                <div class="preview-container">
+                    <div class="preview">
+                        <h2>Hello World</h2>
+                        <p>Je suis un simple texte.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+        <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+     
+
+
+    </main>
+<!-- ------btouton scroll ------------------------>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn">&uarr;</button>
+
+    <footer class="footer">
+        <section class="contact-info">
+            <p>Téléphone : <a href="tel:+123456789">+33 6 12 34 56 78</a></p>
+            <p>Email : <a href="mailto:contact@exemple.com">contact@exemple.com</a></p>
+        </section>
+        <nav class="footer-nav">
+            <ul class="nav-list">
+                <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+                <li><a href="../Page/css.html">CSS</a></li>
+                <li><a href="../Page/html.html">HTML</a></li>
+                <li><a href="../Page/Contact.html">CONTACT</a></li>
+            </ul>
+            <ul class="page-links">
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="../Page/Ensavoirplus.html">EN SAVOIR PLUS</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.x.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://fr.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

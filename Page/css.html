@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="/Assets/css/header.css">
+    <link rel="stylesheet" href="/Assets/css/page/css.css">
+    <script src="/Assets/js/style.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <header class="header">
+        <!-- Menu burger pour mobile -->
+        <div class="burger" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Logo centré sur la barre de navigation -->
+        <div class="logo">
+            <a href="../index.html">
+                <img src="/Assets/image/logo.jpg" alt="Retour à l'accueil">
+            </a>
+        </div>
+
+        <!-- Navigation principale -->
+        <nav class="nav" id="navMenu">
+            <ul>
+                <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+                <li><a href="../Page/css.html">CSS</a></li>
+                <li><a href="../Page/Html.html">HTML</a></li>
+                <li><a href="../Page/Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+
+
+     <!-- section haut-->
+ <Section class="section-milieu">
+    <H1> Qu'est-ce que le CSS ? </H1>
+    <div>
+        <p>Le langage de base du web</p>
+    </div>
+</Section>
+
+
+  <!-- separateur -->
+  <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+  <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+  <!-- separateur -->
+
+
+ <!-- ------------------section 1 ----------------->
+ <h2>INTRODUCTION</h2>
+ <section class="section1">
+    
+    <div class="column image-column">
+        <div class="image-container">
+            <img src="/Assets/image/pcv4.jpg" alt="Image 1">
+        </div>
+    </div>
+    <div class="column text-column">
+        <h2>L'analogie de la maison</h2>
+        <p>Poursuivons l'analogie. Si le HTML est le plan de la maison, le CSS est la décoration intérieure et extérieure. Il détermine la couleur des murs, le choix du mobilier, l'agencement des pièces, etc.</p>
+    </div>
+    <div class="column text-column">
+        <h2>Définition claire et concise</h2>
+        <p>CSS est un langage de style utilisé pour décrire la présentation des documents HTML. Il permet de contrôler l'apparence visuelle des éléments d'une page web.</p>
+    </div>
+    <div class="column text-column">
+        <h2>Importance fondamentale</h2>
+        <p>Le CSS est essentiel pour transformer un ensemble de balises HTML en une interface utilisateur agréable et cohérente. Il permet de créer des sites web esthétiques et adaptés à tous les écrans.</p>
+    </div>
+    
+</section>
+
+
+<!-- separateur -->
+<div class="custom-separator"></div>
+<!-- separateur -->
+
+
+<section class="section2">
+    <h2>LES BASE DU CSS</h2>
+    <div class="columns-container">
+        <!-- Colonne 1 : Les balises -->
+        <div class="column">
+            <div class="icon">
+                <img src="https://img.icons8.com/ios/50/000000/code.png" alt="Icone balises">
+            </div>
+            <h3>Les sélecteurs </h3>
+            <p>Un sélecteur permet de cibler les éléments HTML auxquels on veut appliquer un style.
+                </p>
+                <p>-<code>p</code>: Tous les paragraphes</p>
+                <p>-<code>.classe</code>: Tous les éléments ayant la classe "classe"</p>
+                <p>-<code>#id</code>: L'élément ayant l'ID "id"</p>        </div>
+
+        <!-- Colonne 2 : La structure d'un document HTML -->
+        <div class="column">
+            <div class="icon">
+                <img src="https://img.icons8.com/ios/50/000000/code-file.png" alt="Icone structure">
+            </div>
+            <h3>Les propriétés et les valeurs</h3>
+            <p>-Les propriétés CSS définissent les caractéristiques d'un élément <code>color, font-size</code></p>
+            <p>-Les valeurs indiquent la valeur à attribuer à une propriété.<code>color: blue</code>: <code>font-size: 100px </code></p>
+            <p><code>URLs</code>: Pour les propriétés comme: <code>background-image</code></p>
+        </div>
+
+        <!-- Colonne 3 : Les éléments les plus utilisés -->
+        <div class="column">
+            <div class="icon">
+                <img src="https://img.icons8.com/?size=100&id=38273&format=png&color=000000" alt="Icone CSS">
+            </div>
+            <h3>Les feuilles de style </h3>
+            <p>-Un fichier CSS est un fichier texte avec l'extension: <code>.css</code></p>
+            <p>-Il contient l'ensemble des règles CSS d'un<code>site</code></p>
+            <p>-Il est lié à un fichier HTML via la balise<code>&lt;link&gt;</code></p>
+        </div>
+    </div>
+</section>
+
+
+<!-- separateur -->
+<div class="custom-separator"></div>
+<!-- separateur -->
+
+
+    <h2>CODE CSS</h2>
+    <section class="css-section">
+        <!-- Sous-section 1 : Description -->
+        <div class="content-section">
+            <h1>Comprendre le CSS</h1>
+            <p>Le CSS est le langage de base pour styliser des pages web. Il permet de définir l'apparence des éléments avec des sélecteurs et des propriétés.
+                Dans cette section, vous pouvez voir un exemple de code en <span class="css-word">CSS</span>
+            </p>
+        </div>
+
+        <!-- Sous-section 2 : Code et Aperçu -->
+        <div class="code-preview-section">
+            <div class="code-container">
+                <div class="code-box">
+                    <pre id="code">
+<span class="selector">.container</span> <span class="bracket">{</span>
+<span class="property">display</span>: <span class="value">flex</span>;
+<span class="property">justify-content</span>: <span class="value">space-around</span>;
+<span class="property">align-items</span>: <span class="value">center</span>;
+<span class="property">height</span>: <span class="value">100vh</span>;
+<span class="bracket">}</span>
+
+<span class="selector">.item</span> <span class="bracket">{</span>
+<span class="property">background-color</span>: <span class="value">lightblue</span>;
+<span class="property">padding</span>: <span class="value">20px</span>;
+<span class="property">margin</span>: <span class="value">10px</span>;
+<span class="property">border-radius</span>: <span class="value">5px</span>;
+<span class="bracket">}</span>
+                    </pre>
+                    <button id="copyButton" onclick="copyCode()">Copier le code</button>
+                </div>
+            </div>
+
+            <div class="preview-container">
+                <h2>Aperçu</h2>
+                <div class="container">
+                    <div class="item">Item 1</div>
+                    <div class="item">Item 2</div>
+                    <div class="item">Item 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- separateur -->
+  <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+  <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+  <!-- separateur -->
+
+</main>
+
+<!-- ------btouton scroll -->
+<button id="scrollToTopBtn" class="scrollToTopBtn">&uarr;</button>
+
+<footer class="footer">
+    <section class="contact-info">
+        <p>Téléphone : <a href="tel:+123456789">+33 6 12 34 56 78</a></p>
+        <p>Email : <a href="mailto:contact@exemple.com">contact@exemple.com</a></p>
+    </section>
+    <nav class="footer-nav">
+        <ul class="nav-list">
+            <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+            <li><a href="../Page/css.html">CSS</a></li>
+            <li><a href="../Page/html.html">HTML</a></li>
+            <li><a href="../Page/Contact.html">CONTACT</a></li>
+        </ul>
+        <ul class="page-links">
+            <li><a href="../index.html">ACCUEIL</a></li>
+            <li><a href="../Page/Ensavoirplus.html">EN SAVOIR PLUS</a></li>
+        </ul>
+    </nav>
+    <div class="social-media">
+        <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.x.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://fr.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="/Assets/css/header.css">
+    <link rel="stylesheet" href="/Assets/css/page/java.css">
+    <script src="/Assets/js/style.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- Menu burger pour mobile -->
+        <div class="burger" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="/Assets/image/logo.jpg" alt="Retour à l'accueil">
+            </a>
+
+        </div>
+        <!-- Navigation principale -->
+        <nav class="nav" id="navMenu">
+            <ul>
+                <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+                <li><a href="../Page/css.html">CSS</a></li>
+                <li><a href="../Page/Html.html">HTML</a></li>
+                <li><a href="../Page/Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+        <Section class="section-milieu">
+            <H1> Qu'est-ce que le JavaScript ? </H1>
+            <div>
+                <p>Le langage de base du web</p>
+            </div>
+        </Section>
+
+
+
+        <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+        <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+
+
+
+        <h2>INTRODUCTION</h2>
+        <!-- ---------------------section 1 ---------------------------->
+        <section class="section1">
+            <div class="column image-column">
+                <div class="image-container">
+                    <img src="/Assets/image/pcv4.jpg" alt="Image 1">
+                </div>
+            </div>
+            <div class="column text-column">
+                <h2>L'analogie de la maison</h2>
+                <p> Poursuivons l'analogie. Si HTML est la structure et CSS l'apparence, JavaScript est le système
+                    électrique et les automatismes de la maison. Il permet d'allumer les lumières, d'ouvrir les portes,
+                    de déclencher des alarmes, etc., en réponse aux actions des occupants.</p>
+            </div>
+            <div class="column text-column">
+                <h2>Définition claire et concise</h2>
+                <p>JavaScript est un langage de programmation de haut niveau, interprété, qui permet d'ajouter des
+                    fonctionnalités interactives à des pages web. Il s'exécute directement dans le navigateur de
+                    l'utilisateur.</p>
+            </div>
+            <div class="column text-column">
+                <h2>Importance fondamentale</h2>
+                <p>JavaScript est devenu indispensable pour créer des expériences utilisateur modernes et dynamiques,
+                    allant des simples animations aux applications web complexes. vous serez en mesure de développer des
+                    sites web dynamiques et interactifs.</p>
+            </div>
+
+        </section>
+
+
+        <!-- separateur -->
+        <div class="custom-separator"></div>
+
+
+        <!----------------------------- 2eme section--------------------------------- -->
+        <section class="section2">
+            <h2>LES BASE DU JAVASCRIPT</h2>
+            <div class="columns-container">
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/ios/50/000000/code.png" alt="Icone balises">
+                    </div>
+                    <h3>Les variables et fonctions</h3>
+                    <p>Une variable est un conteneur qui stocke une valeur <code>(nombre, texte, booléen, etc.)</code>
+                    </p>
+                    <p>Une fonction est un bloc de code réutilisable qui effectue une tâche spécifique.<code>function saluer(nom) {
+                        console.log("Bonjour " + nom + " !");
+                      }</code></p>
+                </div>
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/ios/50/000000/code-file.png" alt="Icone structure">
+                    </div>
+                    <h3>Les structures de contrôle</h3>
+                    <p>Les structures conditionnelles <code>(if, else) </code>permettent d'exécuter du code en fonction
+                        d'une condition.</p>
+                    <p>Les boucles:<code>(for, while)</code>permettent de répéter une instruction plusieurs fois.</p>
+                </div>
+                <div class="column">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/?size=100&id=42769&format=png&color=000000" alt="Icone java">
+                    </div>
+                    <h3>Le DOM</h3>
+                    <p>Le DOM est une représentation de la page HTML sous forme d'arbre d'objets.</p>
+                    <p>Il permet de manipuler le contenu, la structure et le style des éléments <code>HTML</code></p>
+                    <p>Exemple : <code>document.getElementById("monElement").style.color = "blue";</code></p>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- separateur -->
+        <div class="custom-separator"></div>
+        <!-- separateur -->
+
+
+        <!------------------------ Exemple java et code-------------------- -->
+
+        <h2>CODE JAVASCRIPT</h2>
+        <section class="java-section">
+            <div class="content-section">
+                <h1>Comprendre le JAVASCRIPT</h1>
+                <p>Le JavaScript est le langage de base pour rendre les pages web interactives. Il permet de manipuler
+                    le contenu, de réagir aux actions des utilisateurs, et d'ajouter des fonctionnalités dynamiques.
+                    Dans cette section, vous pouvez voir un exemple de code en <span class="java-word">JAVASCRIPT</span>
+                </p>
+            </div>
+            <section class="code-and-preview">
+                <div class="code-container">
+
+                    <div class="code-box">
+                        <pre id="code">
+        <span class="keyword">const</span> boxes = <span class="keyword">document</span>.<span class="function">querySelectorAll</span>(<span class="string">'.item'</span>);
+        <span class="keyword">let</span> animationActive = <span class="keyword">false</span>;
+        
+        <span class="keyword">function</span> toggleAnimation() {
+            animationActive = !animationActive;
+            <span class="keyword">boxes</span>.<span class="function">forEach</span>((box, index) => {
+                <span class="keyword">if</span> (animationActive) {
+                    <span class="keyword">setTimeout</span>(() => {
+                        <span class="keyword">box</span>.<span class="function">style</span>.<span class="property">transform</span> = <span class="string">'scale(1.5) rotate(45deg)'</span>;
+                    }, index * 500);
+                } <span class="keyword">else</span> {
+                    <span class="keyword">box</span>.<span class="function">style</span>.<span class="property">transform</span> = <span class="string">'scale(1) rotate(0deg)'</span>;
+                }
+            });
+        }
+                            </pre>
+                        <button class="boutton1" id="copyButton" onclick="copyCode()">Copier le code</button>
+                    </div>
+                </div>
+
+                <div class="preview-container">
+                    <h2>Aperçu</h2>
+                    <button class="boutton2" id="toggleButton" onclick="toggleAnimation()">On/Off</button>
+                    <div class="container">
+                        <div class="item">Item 1</div>
+                        <div class="item">Item 2</div>
+                        <div class="item">Item 3</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- separateur -->
+        <div class="separateur"><img src="/Assets/image/separator-top.svg" alt=""></div>
+        <div class="separateur"><img src="/Assets/image/separator-bottom.svg" alt=""></div>
+        <!-- separateur -->
+
+    </main>
+    <!-- ------btouton scroll -->
+    <button id="scrollToTopBtn" class="scrollToTopBtn">&uarr;</button>
+
+    <footer class="footer">
+        <section class="contact-info">
+            <p>Téléphone : <a href="tel:+123456789">+33 6 12 34 56 78</a></p>
+            <p>Email : <a href="mailto:contact@exemple.com">contact@exemple.com</a></p>
+        </section>
+        <nav class="footer-nav">
+            <ul class="nav-list">
+                <li><a href="../Page/Java.html">JAVASCRIPT</a></li>
+                <li><a href="../Page/css.html">CSS</a></li>
+                <li><a href="../Page/Html.html">HTML</a></li>
+                <li><a href="../Page/Contact.html">CONTACT</a></li>
+            </ul>
+            <ul class="page-links">
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="../Page/Ensavoirplus.html">EN SAVOIR PLUS</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.x.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://fr.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
