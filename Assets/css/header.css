@@ -420,9 +420,8 @@ body {
    }
 
  .section-milieu{
-
-  
-   position: absolute; 
+   flex-direction: column;
+   align-items: center;
      bottom: -80px;  
  }
 }

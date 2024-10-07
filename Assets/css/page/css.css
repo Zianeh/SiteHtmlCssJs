@@ -261,7 +261,7 @@ button:hover {
 }
 
 /* Responsiveness */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .code-preview-section {
         flex-direction: column;
     }
@@ -291,23 +291,53 @@ button:hover {
 
 
 /* ----------------------Responsiveness---------------------- */
-@media screen and (max-width: 768px) {
-    .code-preview-section {
+@media (max-width: 768px) {
+
+    .section1{
         flex-direction: column;
         align-items: center;
     }
-    .columns-container {
-       flex-direction: column;
-       gap: 20px;
-   }
- 
-   .five-columns-section {
-    flex-direction: column;
-    gap: 15px;
- }
- 
- .column {
-    width: 100%;
- }
- }
+    .section2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .css-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .code-and-preview{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .code-box{
+        
+        margin-bottom: 30px;
+         width: 100%;
+      }
+    
+      .column {
+        width: 100%;
+     }
+    
+    
+     .columns-container {
+        flex-direction: column;
+        
+    }
+    .code-container,
+    .preview-container {
+        width: 100%;
+        
+    }
+
+    .code-preview-section{
+        width: 100%;
+
+    }
+}
  
